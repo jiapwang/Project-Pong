@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 /**
  * Sets up the GUI and starts the game.
  * 
- * @author sdexter72
+ * @author Jia
  *
  */
 public class Main{

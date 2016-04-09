@@ -8,7 +8,7 @@ import java.awt.Rectangle;
  * corners. Each object has a speed in the x and y direction, which can be
  * changed by the set and accel methods.
  * 
- * @author sdexter72
+ * @author Jia
  *
  */
 

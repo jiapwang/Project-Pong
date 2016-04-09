@@ -17,7 +17,7 @@ import javax.swing.Timer;
  * 
  * Uses a Swing Timer to advance the animation; keeps track of, and renders, all GameObjects. Handles all relevant game events.
  * 
- * @author sdexter72
+ * @author Jia
  *
  */
 
@@ -71,7 +71,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener{
 		g.drawString("Lives: ", 320, 25);
 		g.drawString(String.valueOf(this.RightLives),250+155,25);
 		
-		g.setColor(Color.blue);
+		g.setColor(Color.red);
 		g.fillOval(ball.getTopLeft().x, ball.getTopLeft().y, ball.getWidth(), ball.getHeight());
 		g.setColor(Color.orange);
 		g.fillRect(paddleLeft.topLeft.x, paddleLeft.topLeft.y, paddleLeft.getWidth(), paddleLeft.getHeight());
