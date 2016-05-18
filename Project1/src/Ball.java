@@ -19,10 +19,7 @@ public class Ball extends GameObject {
 			this.setYSpeed(-ySpeed);
 		}
 
-		else if (bottomRight.y >= 475) { // !! watch out for magic numbers--if
-											// you decide to change the size of
-											// the game's frame, you'll have to
-											// modify Ball code, which seems odd
+		else if (bottomRight.y >= 475) { 
 			this.setYSpeed(-ySpeed);
 		}
 	}
